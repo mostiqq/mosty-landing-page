@@ -1,0 +1,21 @@
+@import "vars";
+
+.header {
+  padding: 24px 0;
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__title {
+    font-size: 45px;
+    line-height: 160%;
+  }
+
+  &__theme__black {
+    width: 50px;
+    height: 50px;
+  }
+}
