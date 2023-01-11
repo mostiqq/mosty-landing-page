@@ -1,0 +1,60 @@
+@import '_vars.scss';
+@import '_fonts.scss';
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  min-width: 320px;
+  background-color: $whitePrimary;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+.container {
+  max-width: $containerMaxWidth;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.d-none {
+  display: none;
+}
+
+.color-white {
+  color: $whitePrimary;
+  transition: color .2s ease-in-out;
+}
+
+.bg-black {
+  background-color: $blackPrimary;
+  transition: background-color .2s ease-in-out;
+}
+
+.color-black {
+  color: $blackPrimary;
+  transition: color .2s ease-in-out;
+}
+
+.bg-white {
+  background-color: $whitePrimary;
+  transition: background-color .2s ease-in-out;
+}
+
+
